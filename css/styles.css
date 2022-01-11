@@ -22,10 +22,6 @@ body {
     align-items: center;
 }
 
-/* h1 {
-    margin-left: 150px;
-} */
-
 .nav-links {
     display: flex;
     flex-direction: row;
