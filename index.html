@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>        
+        <nav class="nav">
+            <div class="nav-container">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                    <li><button class="btn">Sign Out</button></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <main class="main">
+                <div class="cm-card">
+                    <div class="jd-header">
+                        <img src="./images/jane-m.jpg" alt="Jane picture" />
+                    </div>
+                    <div class="jd-tarjetaInformacion">
+                        <h2 class="jd-nombre">Jane Doe</h2>
+                        <div class="jd-ubicacion">
+                            <img class="jd-iconoUbicacion" src="./icons/map-marker.png" alt="Símbolo ubicación" />
+                            <span class="jd-ciudad">Seatle</span>                    
+                        </div>
+                        <div class="jd-skills">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <div class="jd-editarPerfil">
+                            <img class="jd-iconoConfiguracion" src="./icons/gear.png" alt="Icono configuración" />
+                            <a class="jd-linkEditar" href="#" onclick="edUsr(this)">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cm-card">
+                    <div class="ed-header">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="ed-tarjetaInformacion">
+                        <p class="ed-ti-p1">Coding Dojo - Full Stack Bootcamp</p>
+                        <p class="ed-ti-p2">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </main>
+            <aside class="aside">
+                <div class="ca-card">
+                    <div class="ca-header">
+                        <p class="cr-counter-value">2</p>
+                        <h3>Connection Requests</h3>
+                    </div>
+                    <div class="ca-tarjetaInformacion">
+                        <div class="cr-list-deatils">
+                            <div class="cr-ld-cg">
+                                <img class="ca-ld-ur" src="./images/todd-s.jpg" alt="Todd E picture" />
+                                <h3 class="cr-nombre">Todd E</h3>
+                            </div>
+                            <div class="cr-ld-cg">
+                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" onclick="aReq(this)" />
+                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" onclick="cReq(this)" />
+                            </div>
+                        </div>
+                        <div class="cr-list-deatils">
+                            <div class="cr-ld-cg">
+                                <img class="ca-ld-ur" src="./images/phil-s.jpg" alt="Phil K picture" />
+                                <h3 class="cr-nombre">Phil K</h3>
+                            </div>
+                            <div class="cr-ld-cg">
+                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" onclick="aReq(this)" />
+                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" onclick="cReq(this)" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ca-card">
+                    <div class="ca-header">
+                        <p class="cn-counter-value">418</p>
+                        <h3>Your Connections</h3>
+                    </div>
+                    <div class="ca-tarjetaInformacion">
+                        <div class="cn-ld-cg">
+                            <img class="ca-ld-ur" src="./images/adrien-s.jpg" alt="Adrien D picture" />
+                            <h3 class="cn-nombre">Adrien D</h3>
+                        </div>                            
+                        <div class="cn-ld-cg">
+                            <img class="ca-ld-ur" src="./images/anne-s.jpg" alt="Anne J picture" />
+                            <h3 class="cn-nombre">Anne J</h3>
+                        </div>
+                        <div class="cn-ld-cg">
+                            <img class="ca-ld-ur" src="./images/alayne-s.jpg" alt="Alayne T picture" />
+                            <h3 class="cn-nombre">Alayne T</h3>
+                        </div>
+                        <div class="cn-ld-cg">
+                            <img class="ca-ld-ur" src="./images/arry-s.jpg" alt="Arry Y picture" />
+                            <h3 class="cn-nombre">Arry Y</h3>
+                        </div>
+                    </div>
+                    <div class="cn-footer">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav {
+    background-color: #000000;    
+}
+
+.nav-container {
+    width: 1080px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* h1 {
+    margin-left: 150px;
+} */
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    font-size: 1.05em;
+    color: #ffffff;
+    border: 2px solid #000000;
+    background-color: #4BA0B5;
+    box-shadow: 3px 3px #000000;
+    margin-left: 380px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 0 auto;
+}
+
+/* ---------- JD-CARD STYLES ---------- */
+.cm-card {
+    border: 2px solid #cccccc;
+    margin-top: 30px;
+}
+
+.jd-header {
+    background-color: #309db8;
+    height: 70px;
+}
+
+.jd-header > img {
+    height: 120px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 60px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.jd-tarjetaInformacion {
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.jd-nombre {
+    margin-bottom: 4px;
+}
+
+.jd-iconoUbicacion {
+    width: 10px;
+    padding: 5px;
+}
+
+.jd-iconoConfiguracion {
+    width: 15px;
+    padding: 4px;
+}
+
+.jd-ciudad, .jd-linkEditar {
+    vertical-align: 6px;
+}
+
+.jd-skills p {
+    margin: 2px 0;
+    padding: 0;
+}
+
+/* ---------- ED-CARD STYLES ---------- */
+.ed-header {
+    background-color: #333333;
+    height: 70px;
+    display: flex;
+}
+
+.ed-header > h3 {
+    line-height: 30px;
+    color: #ffffff;
+    padding: 20px 20px;
+}
+
+.ed-tarjetaInformacion {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.ed-ti-p1 {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.ed-ti-p2 {
+    color: #cccccc;
+    margin-bottom: 6px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 auto;
+}
+
+/* ---------- CR-CARD STYLES ---------- */
+.ca-card {
+    border: 2px solid #cccccc;
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.ca-header {
+    background-color: #333333;
+    height: 70px;
+    display: flex;
+}
+
+.cr-counter-value {
+    height: 10px;
+    background-color: #cccccc;
+    color: #4a4a4a;
+    font-size: 1.1em;
+    line-height: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px 10px 20px 20px;
+}
+
+.ca-header > h3 {
+    width: 200px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 20px 20px 20px 10px;
+}
+
+.ca-tarjetaInformacion {
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cr-list-deatils, .cr-ld-cg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cr-list-deatils {
+    margin-top: 15px;
+}
+
+.cr-ld-cg {
+    margin-right: 15px;
+}
+
+.ca-ld-ur {
+    height: 60px;
+    padding: 5px;
+    border: 2px solid #cccccc;
+    border-radius: 50px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.cr-nombre {
+    width: 80px;
+    margin: 20px 20px 20px 10px;
+}
+
+.cr-ld-ur-ad {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* ---------- CN-CARD STYLES ---------- */
+.cn-counter-value {
+    height: 30px;
+    width: 60px;
+    background-color: #cccccc;
+    color: #4a4a4a;
+    font-size: 1.1em;
+    line-height: 30px;
+    border-radius: 100px / 50px;
+    margin: 20px 10px 20px 20px;
+    text-align: center;
+}
+
+.cn-ld-cg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cn-ld-cg {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.cn-nombre {
+    margin: 20px 20px 20px 10px;
+}
+
+.cn-footer {
+    height: 20px;
+    display: flex;
+    border-top: 2px solid #cccccc;
+    padding: 20px;
+}
